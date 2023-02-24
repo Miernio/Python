@@ -25,9 +25,8 @@ while True:
         window['_typ_'].Update(visible=False)
         window['_err2_'].Update(visible=False)
         window.refresh()
-        if values[0] != '':
-            xd = values[0]
-            link = xd
+        if values[0] != '': 
+            link = values[0]
             try:
                 yt = YouTube(link)
             except:
